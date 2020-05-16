@@ -6,7 +6,7 @@ Component composition is one of React's powerful features. When you work with Re
 There are two functional components defined in the code editor, called TypesOfFruit and Fruits. Take the TypesOfFruit component and compose it, or nest it, within the Fruits component. Then take the Fruits component and nest it within the TypesOfFood component. The result should be a child component, nested within a parent component, which is nested within a parent component of its own!
 */}
 
-const TypesOfFruit = () => {
+  const TypesOfFruit = () => {
     return (
       <div>
         <h2>Fruits:</h2>

@@ -20,7 +20,7 @@ In the code editor, there is a simple functional component called ChildComponent
 Note: ChildComponent is defined with an ES6 arrow function because this is a very common practice when using React. However, know that this is just a function. If you aren't familiar with the arrow function syntax, please refer to the JavaScript section.
 */}
 
-const ChildComponent = () => {
+  const ChildComponent = () => {
     return (
       <div>
         <p>I am the child</p>
